@@ -1,0 +1,67 @@
+services:
+ db:
+   image: postgres:17
+   environment:
+     POSTGRES_DB: ${DB_NAME}
+     POSTGRES_USER: ${DB_USER}
+     POSTGRES_PASSWORD: ${DB_PASSWORD}
+   ports:
+     - "5432:5432"
+   volumes:
+     - postgres_data:/var/lib/postgresql/data
+   env_file:
+     - .env
+ 
+ django-web:
+   build: .
+   container_name: django-docker
+   ports:
+     - "8000:8000"
+   depends_on:
+     - db
+   environment:
+     DJANGO_SECRET_KEY: ${SECRET_KEY}
+     DEBUG: ${DEBUG}
+     DJANGO_LOGLEVEL: ${LOGLEVEL}
+     DJANGO_ALLOWED_HOSTS: ${ALLOWED_HOSTS}
+     DATABASE_ENGINE: ${DB_ENGINE}
+     DATABASE_NAME: ${DB_NAME}
+     DATABASE_USERNAME: ${DB_USER}
+ 
+     DATABASE_PASSWORD: ${DB_PASSWORD}
+     DATABASE_HOST: ${DB_HOST}
+     DATABASE_PORT: ${DB_PORT}
+   env_file:
+     - .env
+volumes:
+   postgres_data:
+
+
+
+# version: '3.8'
+# services:
+#   appseed-app:
+#     container_name: appseed_app
+#     restart: always
+#     build: .
+#     networks:
+#       - db_network
+#       - web_network
+#   nginx:
+#     container_name: nginx
+#     restart: always
+#     image: "nginx:latest"
+#     ports:
+#       - "5000:5000"
+#     volumes:
+#       - ./nginx:/etc/nginx/conf.d
+#     networks:
+#       - web_network
+#     depends_on: 
+#       - appseed-app
+# networks:
+#   db_network:
+#     driver: bridge
+#   web_network:
+#     driver: bridge
+ 

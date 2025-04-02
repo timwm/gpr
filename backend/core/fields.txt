@@ -1,0 +1,64 @@
+from rest_framework import serializers
+
+class MultiTypeField(serializers.Field):
+    def __init__(self, field_types, *args, **kwargs):
+            self.field_types = field_types
+	            super(MultiTypeField, self).__init__(*args, **kwargs)
+
+		        def to_representation(self, value):
+			        for field_type in self.field_types:
+				            field = self._get_field_instance(field_type)
+					                try:
+							                return field.to_representation(value)
+									            except Exception:
+										                    continue
+												            raise serializers.ValidationError("No matching field type found for to_representation")
+
+													        def to_internal_value(self, data):
+														        for field_type in self.field_types:
+															            field = self._get_field_instance(field_type)
+																                try:
+																		                return field.to_internal_value(data)
+																				            except Exception:
+																					                    continue
+																							            raise serializers.ValidationError("No matching field type found for to_internal_value")
+
+																								        def _get_field_instance(self, field_type):
+																									        if isinstance(field_type, type) and issubclass(field_type, serializers.Field):
+																										            return field_type()
+																											            elif isinstance(field_type, serializers.Field):
+																												                return field_type
+																														        elif field_type in [int, bool, float, str]:
+																															            return self._get_builtin_field(field_type)
+																																            else:
+																																	                raise TypeError(f"Unsupported field type: {field_type}")
+
+																																			    def _get_builtin_field(self, field_type):
+																																			            if field_type == int:
+																																				                return serializers.IntegerField()
+																																						        elif field_type == bool:
+																																							            return serializers.BooleanField()
+																																								            elif field_type == float:
+																																									                return serializers.FloatField()
+																																											        elif field_type == str:
+																																												            return serializers.CharField()
+																																													            else:
+																																														                raise TypeError(f"Unsupported built-in type: {field_type}")
+
+																																																# Example Usage:
+																																																class MySerializer(serializers.Serializer):
+																																																    owner = MultiTypeField(
+																																																            [
+																																																	                int,
+																																																			            bool,
+																																																				                serializers.CharField(min_length=4),
+																																																						            serializers.EmailField(),
+																																																							            ],
+																																																								            required=False
+																																																									        )
+
+																																																										# Example data to test
+																																																										serializer = MySerializer(data={'owner': 'test@example.com'})
+																																																										serializer.is_valid()
+																																																										print(serializer.validated_data)  # Output: {'owner': 'test@example.com'}
+																																																										

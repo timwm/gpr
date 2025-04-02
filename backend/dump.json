@@ -1,0 +1,1674 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry",
+      "description": "Permission to create new log entries for tracking system activities.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add active session",
+      "content_type": 6,
+      "codename": "add_activesession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change active session",
+      "content_type": 6,
+      "codename": "change_activesession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete active session",
+      "content_type": 6,
+      "codename": "delete_activesession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view active session",
+      "content_type": 6,
+      "codename": "view_activesession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add faculty",
+      "content_type": 7,
+      "codename": "add_faculty"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change faculty",
+      "content_type": 7,
+      "codename": "change_faculty"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete faculty",
+      "content_type": 7,
+      "codename": "delete_faculty"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view faculty",
+      "content_type": 7,
+      "codename": "view_faculty"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add department",
+      "content_type": 8,
+      "codename": "add_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change department",
+      "content_type": 8,
+      "codename": "change_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete department",
+      "content_type": 8,
+      "codename": "delete_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view department",
+      "content_type": 8,
+      "codename": "view_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add role",
+      "content_type": 9,
+      "codename": "add_role"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change role",
+      "content_type": 9,
+      "codename": "change_role"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete role",
+      "content_type": 9,
+      "codename": "delete_role"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view role",
+      "content_type": 9,
+      "codename": "view_role"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 10,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 10,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 10,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 10,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add staff",
+      "content_type": 11,
+      "codename": "add_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change staff",
+      "content_type": 11,
+      "codename": "change_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete staff",
+      "content_type": 11,
+      "codename": "delete_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view staff",
+      "content_type": 11,
+      "codename": "view_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add student",
+      "content_type": 12,
+      "codename": "add_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change student",
+      "content_type": 12,
+      "codename": "change_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete student",
+      "content_type": 12,
+      "codename": "delete_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view student",
+      "content_type": 12,
+      "codename": "view_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 13,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 13,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 13,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 13,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add issue",
+      "content_type": 14,
+      "codename": "add_issue"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change issue",
+      "content_type": 14,
+      "codename": "change_issue"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete issue",
+      "content_type": 14,
+      "codename": "delete_issue"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view issue",
+      "content_type": 14,
+      "codename": "view_issue"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add attachment",
+      "content_type": 15,
+      "codename": "add_attachment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change attachment",
+      "content_type": 15,
+      "codename": "change_attachment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete attachment",
+      "content_type": 15,
+      "codename": "delete_attachment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view attachment",
+      "content_type": 15,
+      "codename": "view_attachment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add issue log",
+      "content_type": 16,
+      "codename": "add_issuelog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change issue log",
+      "content_type": 16,
+      "codename": "change_issuelog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete issue log",
+      "content_type": 16,
+      "codename": "delete_issuelog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view issue log",
+      "content_type": 16,
+      "codename": "view_issuelog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "authentication",
+      "model": "activesession"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "core",
+      "model": "faculty"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "core",
+      "model": "department"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "core",
+      "model": "role"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "core",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "core",
+      "model": "staff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "core",
+      "model": "student"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "core",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "core",
+      "model": "issue"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "core",
+      "model": "attachment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "core",
+      "model": "issuelog"
+    }
+  },
+  {
+    "model": "core.faculty",
+    "pk": 1,
+    "fields": {
+      "name": "Medicine",
+      "description": "Molestias sed at aut, iure assumenda praesentium.\nVitae aliquam placeat inventore officiis nihil minus odio, rerum quas neque earum enim aperiam debitis dolores?",
+      "created_at": "2024-12-15T12:09:54.287Z"
+    }
+  },
+  {
+    "model": "core.faculty",
+    "pk": 2,
+    "fields": {
+      "name": "Arts and Humanities",
+      "description": "Deserunt sint pariatur fuga quidem voluptates sed ratione veritatis suscipit molestiae inventore, error sed illo quaerat, nisi iste repudiandae fugiat praesentium?",
+      "created_at": "2025-02-14T12:09:54.288Z"
+    }
+  },
+  {
+    "model": "core.faculty",
+    "pk": 3,
+    "fields": {
+      "name": "Science",
+      "description": "Necessitatibus ut eaque maxime molestias adipisci praesentium suscipit tempore aut a, quia quas unde cumque enim, numquam sed dolorum iure officia.\nSapiente sunt autem eum asperiores consequatur dolores eius nemo doloremque, earum veniam explicabo libero?",
+      "created_at": "2024-12-06T12:09:54.288Z"
+    }
+  },
+  {
+    "model": "core.faculty",
+    "pk": 4,
+    "fields": {
+      "name": "Bussiness",
+      "description": "Cupiditate rerum tempore reiciendis, minima odit inventore cum, voluptatem dolore mollitia tenetur unde commodi maiores, nesciunt ipsam ut temporibus?\nQuia repudiandae architecto, vel ipsa quaerat delectus architecto ipsam quisquam temporibus quia.",
+      "created_at": "2024-11-16T12:09:54.289Z"
+    }
+  },
+  {
+    "model": "core.faculty",
+    "pk": 5,
+    "fields": {
+      "name": "Engineering",
+      "description": "Saepe mollitia maiores non quibusdam nulla nam omnis ducimus?\nOmnis aperiam dolorum molestias accusantium rem nisi illo delectus aut, ducimus maiores veritatis magni maxime a inventore dolor odit laudantium cupiditate, cumque recusandae voluptatibus?",
+      "created_at": "2024-11-21T12:09:54.290Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 1,
+    "fields": {
+      "name": "Psychiatry",
+      "description": "Quis obcaecati esse cupiditate similique reiciendis, a aliquid illo blanditiis cupiditate voluptates suscipit?\nQuo odit excepturi voluptatum fugiat animi esse, ducimus aliquid quibusdam iure nam adipisci deleniti iusto ut, cumque quis reiciendis voluptate?",
+      "faculty": 1,
+      "created_at": "2024-11-27T12:09:54.290Z",
+      "updated_at": "2025-01-24T05:47:04.290Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 2,
+    "fields": {
+      "name": "Pediatrics",
+      "description": "Amet earum distinctio eos consectetur possimus qui soluta, molestias quisquam consequuntur ducimus hic eius rem laudantium odit dignissimos, voluptates accusantium molestiae odit.",
+      "faculty": 1,
+      "created_at": "2025-02-20T12:09:54.291Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 3,
+    "fields": {
+      "name": "Anatomy",
+      "description": "Deleniti ut quidem quam placeat voluptate, iste pariatur assumenda sequi?",
+      "faculty": 1,
+      "created_at": "2025-02-01T12:09:54.291Z",
+      "updated_at": "2025-02-01T20:27:56.291Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 4,
+    "fields": {
+      "name": "Surgery",
+      "description": "Nobis ut itaque numquam expedita eum incidunt consequuntur ea temporibus, quam deleniti esse laudantium neque excepturi suscipit in, aperiam similique ut sed placeat reprehenderit tempora voluptas sunt non exercitationem doloribus, adipisci quos ipsa?",
+      "faculty": 1,
+      "created_at": "2025-02-22T12:09:54.292Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 5,
+    "fields": {
+      "name": "Literature",
+      "description": "Neque sapiente doloremque obcaecati cum nobis ratione, aliquid quaerat illum aliquam aperiam libero assumenda ut, consectetur dolorem dolorum, tempore ratione alias rem.",
+      "faculty": 2,
+      "created_at": "2024-12-17T12:09:54.292Z",
+      "updated_at": "2025-01-30T07:44:54.292Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 6,
+    "fields": {
+      "name": "History",
+      "description": "Deserunt beatae ut perspiciatis quis iusto illum blanditiis ullam officiis, molestias ipsum inventore temporibus harum mollitia ipsa soluta voluptatem quia excepturi dolorem, veniam error officia perspiciatis sequi tenetur quas?",
+      "faculty": 2,
+      "created_at": "2025-01-22T12:09:54.293Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 7,
+    "fields": {
+      "name": "Philosophy",
+      "description": "Labore non nihil placeat culpa a laudantium neque ipsa dicta dolorum, et expedita iusto molestiae, ipsum expedita veniam, aliquid eveniet ullam odio vel quam?\nUnde sunt eveniet nobis ipsam incidunt autem quod esse dolorum dicta, earum quae corporis.",
+      "faculty": 2,
+      "created_at": "2025-02-12T12:09:54.293Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 8,
+    "fields": {
+      "name": "Languages",
+      "description": "Similique eos reiciendis veniam voluptate, ex enim iste, corrupti quod impedit a aperiam molestias iusto totam corporis iure, in placeat hic error ab laborum expedita corporis animi fuga.",
+      "faculty": 2,
+      "created_at": "2024-11-18T12:09:54.294Z",
+      "updated_at": "2024-12-30T07:55:41.294Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 9,
+    "fields": {
+      "name": "Computer Science",
+      "description": "Iste esse tempora, id sunt porro adipisci architecto enim illo?\nEveniet ratione error voluptates suscipit, officiis sit provident labore nesciunt dignissimos tempora, similique voluptatum incidunt rem esse temporibus molestiae voluptates beatae deleniti?",
+      "faculty": 3,
+      "created_at": "2025-01-16T12:09:54.295Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 10,
+    "fields": {
+      "name": "Physics",
+      "description": "Repudiandae voluptatum mollitia dignissimos neque esse totam delectus maxime accusantium corporis officia.",
+      "faculty": 3,
+      "created_at": "2025-02-01T12:09:54.296Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 11,
+    "fields": {
+      "name": "Chemistry",
+      "description": "Obcaecati quis magni nobis porro eligendi culpa quas iusto sit error nam, temporibus quaerat laudantium vel consequuntur?\nFugit quae maiores quia dolor sint ullam tenetur iure eos, quia porro quasi repudiandae eveniet ducimus libero delectus, eos numquam.",
+      "faculty": 3,
+      "created_at": "2024-11-20T12:09:54.296Z",
+      "updated_at": "2024-12-23T20:47:12.296Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 12,
+    "fields": {
+      "name": "Mathematics",
+      "description": "Ducimus mollitia corrupti nostrum eaque quaerat in odio ab optio magni accusamus, consectetur dolorum deserunt assumenda culpa repellat cum facere ipsa, voluptate quia id inventore.",
+      "faculty": 3,
+      "created_at": "2025-01-28T12:09:54.297Z",
+      "updated_at": "2025-02-03T10:43:50.297Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 13,
+    "fields": {
+      "name": "Biology",
+      "description": "Sint consectetur cum voluptate dolor ea, fugiat nostrum perspiciatis, sed recusandae aperiam mollitia quia soluta quam debitis quas assumenda exercitationem vero, soluta debitis exercitationem assumenda reprehenderit illo inventore.",
+      "faculty": 3,
+      "created_at": "2025-02-17T12:09:54.297Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 14,
+    "fields": {
+      "name": "Management",
+      "description": "Mollitia aspernatur reiciendis eaque, odio architecto eaque quam totam fugiat laudantium, quia itaque nesciunt a corporis tenetur, illum neque earum.",
+      "faculty": 4,
+      "created_at": "2025-02-03T12:09:54.298Z",
+      "updated_at": "2025-02-23T12:24:52.298Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 15,
+    "fields": {
+      "name": "Marketing",
+      "description": "Obcaecati sequi officiis quis autem modi ea odio ipsum laudantium delectus, suscipit quod sapiente aliquam tempora incidunt, ut ea dolores, inventore quasi dignissimos distinctio numquam ratione iusto quidem modi expedita aut suscipit.",
+      "faculty": 4,
+      "created_at": "2025-02-22T12:09:54.299Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 16,
+    "fields": {
+      "name": "Finance",
+      "description": "Esse aperiam delectus quae rem nam?\nVitae corrupti soluta debitis, possimus assumenda perspiciatis qui, architecto quisquam molestiae, laboriosam accusamus natus ad ratione temporibus numquam beatae, alias libero nesciunt natus sit molestiae vitae?",
+      "faculty": 4,
+      "created_at": "2025-01-18T12:09:54.299Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 17,
+    "fields": {
+      "name": "Accounting",
+      "description": "Hic aperiam non deserunt voluptatem consectetur natus tenetur illo ducimus?",
+      "faculty": 4,
+      "created_at": "2025-02-10T12:09:54.300Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 18,
+    "fields": {
+      "name": "Mechanical Engineering",
+      "description": "Repellat nobis neque accusamus illo hic consequatur, quod sapiente maiores natus earum enim eum illum odio quibusdam quas, commodi qui vero rerum, voluptatum vel unde hic impedit qui eos cum beatae nulla, animi quo a dolorem expedita iure assumenda qui.",
+      "faculty": 5,
+      "created_at": "2024-12-13T12:09:54.300Z",
+      "updated_at": "2025-01-29T08:57:58.300Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 19,
+    "fields": {
+      "name": "Civil Engineering",
+      "description": "Ullam reiciendis perferendis harum voluptatibus tempora quaerat, sit?",
+      "faculty": 5,
+      "created_at": "2024-11-29T12:09:54.301Z",
+      "updated_at": "2025-01-05T13:43:35.301Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 20,
+    "fields": {
+      "name": "Electrical Engineering",
+      "description": "Quisquam sed repudiandae illo quod ipsum nihil quia reprehenderit amet eveniet aut, quasi beatae et officia?\nNihil architecto aut perferendis velit, voluptas quod non voluptatem eaque ut ducimus pariatur dolore, illum pariatur quaerat dolorem itaque dicta.",
+      "faculty": 5,
+      "created_at": "2025-01-24T12:09:54.301Z",
+      "updated_at": "2025-02-04T06:41:24.301Z"
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 21,
+    "fields": {
+      "name": "Computer Engineering",
+      "description": "Laborum ut aliquam, vero quas aperiam soluta natus officia?\nEst aperiam blanditiis deleniti repellat pariatur?",
+      "faculty": 5,
+      "created_at": "2024-11-28T12:09:54.302Z",
+      "updated_at": "2024-12-31T11:36:34.302Z"
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$w59TesY7InqBqB4iZHCh3q$nFqAlz5ecwlihNPDugyP5IbM75DpC8t/zh3OIHgfQh4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pcs",
+      "first_name": "possimus",
+      "last_name": "corrupti",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-28T12:08:29.461Z",
+      "email": "corrupti.possimus@example.com",
+      "updated_at": "2025-01-17T23:41:38.315Z",
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$tguvPnSpc2NklnT3BF8LrG$EA5OmcogcgSIv2CPIhyrHSg68p1Fomn7Z1/YM+lzeo8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nm",
+      "first_name": "ratione",
+      "last_name": "enim",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-17T12:08:35.520Z",
+      "email": "enim.ratione@yahoomail.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$QIOtFe4fc1WxtV0El50eQf$anr81Gmo6hngGSkz/+Y2MoI72C3vX50y+hyG1ZsbiUU=",
+      "last_login": "2024-12-16T20:45:30.582Z",
+      "is_superuser": false,
+      "username": "ai",
+      "first_name": "velit",
+      "last_name": "dicta veniam",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-12-25T12:08:41.582Z",
+      "email": "dicta.velit@outlook.com",
+      "updated_at": "2025-01-17T23:41:38.315Z",
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$2GOIDVPSKaV5D8tShUhjF5$J5GJvWrzWMDVtSQQ8ze9/9IdLBVH5CSV/+sjK31lMUg=",
+      "last_login": "2025-01-25T14:16:45.635Z",
+      "is_superuser": false,
+      "username": "er",
+      "first_name": "recusandae",
+      "last_name": "rerum",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-12-29T12:08:47.635Z",
+      "email": "rerum.recusandae@quaerat.ac",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$yNvOm6rS5peJgXCKln6iDr$u+w3ph00TXLQ8A63RpdAnVixLGXblF7SSgC5a0KCdyo=",
+      "last_login": "2024-12-17T01:57:06.691Z",
+      "is_superuser": false,
+      "username": "duel",
+      "first_name": "repellendus",
+      "last_name": "cum",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-16T12:08:53.691Z",
+      "email": "cum.repellendus@students.mak.ac",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$ttWYCmynaOXNZVwMGhaT4a$geCWHoWgnw6Jm4I2rQWTnZlcu+LkqvK2HzVPgTX4rLI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "etitc",
+      "first_name": "distinctio",
+      "last_name": "placeat quidem eveniet",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2024-12-22T12:08:59.758Z",
+      "email": "placeat.distinctio@yahoomail.com",
+      "updated_at": "2025-01-22T21:01:31.315Z",
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$37JcMB1zTSgTeXDjXWOehs$kC04z47Jb/hHqENmP4LeQzj8sAklPwuHd9Vu3/uCxb0=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "faim",
+      "first_name": "fugit",
+      "last_name": "amet",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-16T12:09:05.819Z",
+      "email": "amet.fugit@gmail.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7C2aOlXsmAuBKGZgCTGTR5$Y8mX+sEzxvFui3uu1akA+uu25iUIC6p3whID7U0S3vw=",
+      "last_login": "2025-01-26T07:13:34.878Z",
+      "is_superuser": false,
+      "username": "oiig",
+      "first_name": "dignissimos",
+      "last_name": "error",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-17T12:09:11.878Z",
+      "email": "error.dignissimos@gmail.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$LfxblX2CfhoGiEJ6Zyy6qL$orz52Q77HSmA3WdjYRfAYLZ1rYLaOX6RrLHyEuMBSWs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "acacu",
+      "first_name": "accusamus",
+      "last_name": "eveniet",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2025-02-09T12:09:17.943Z",
+      "email": "eveniet.accusamus@example.net",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$AmLR4oD602CEh5RhCw8L4M$WouSGM0MB59KlmYjaPsYWk+gbofx7nz8Fr/2nVvFndU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "seae",
+      "first_name": "molestiae",
+      "last_name": "itaque",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-12-07T12:09:23.995Z",
+      "email": "itaque.molestiae@tenetur.com",
+      "updated_at": "2025-02-09T01:01:31.315Z",
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$2s4eKJnLCdUsTVux4KwDsN$hfJD3mTnho13hQOhnzmRp9utwvsmgHLaBPkvM0WUeyI=",
+      "last_login": "2025-01-15T07:09:07.060Z",
+      "is_superuser": false,
+      "username": "at",
+      "first_name": "odio",
+      "last_name": "dicta",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2025-01-18T12:09:30.061Z",
+      "email": "dicta.odio@gmail.com",
+      "updated_at": "2025-02-19T21:01:31.315Z",
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$3j368GxZMMedrwhowuxTei$SNJUc9PNNu5dpwqm88NRSLDm9yPigrS880jHK8BGtB8=",
+      "last_login": "2025-02-22T20:10:38.113Z",
+      "is_superuser": false,
+      "username": "uuq",
+      "first_name": "sequi",
+      "last_name": "cumque",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-28T12:09:36.113Z",
+      "email": "cumque.sequi@gmail.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$M7rmdno1bB0ir7LwdvPI0M$P03MquHus5FYW8+ynm/cXCQp3EAWlAM4u82vieu4jQc=",
+      "last_login": "2024-12-24T15:38:43.174Z",
+      "is_superuser": false,
+      "username": "oeimr",
+      "first_name": "velit",
+      "last_name": "maiores",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-11-30T12:09:42.174Z",
+      "email": "maiores.velit@impedit.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$zELk8WTrX6fSh7ZLMGe1pi$Xk11phwylBd/kHs4xa/9BcWWkc4kZr1K2REqnhLfEAM=",
+      "last_login": "2025-01-27T14:21:21.229Z",
+      "is_superuser": false,
+      "username": "ons",
+      "first_name": "deserunt",
+      "last_name": "voluptas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-11-20T12:09:48.230Z",
+      "email": "voluptas.deserunt@yahoomail.com",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$2YEsmUuqvrqXPL0nLHZcVz$WXSkLr3RL5R0Qu14oClq278XNRIcT8cR+51zNianLuQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nes",
+      "first_name": "nulla",
+      "last_name": "sapiente",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-01-04T12:09:54.287Z",
+      "email": "sapiente.nulla@students.mak.ac.ug",
+      "updated_at": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": []
+    }
+  },
+  {
+    "model": "core.staff",
+    "pk": 2,
+    "fields": {
+      "departments": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.staff",
+    "pk": 4,
+    "fields": {
+      "departments": [
+        16,
+        8,
+        2,
+        19
+      ]
+    }
+  },
+  {
+    "model": "core.staff",
+    "pk": 10,
+    "fields": {
+      "departments": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 5,
+    "fields": {
+      "student_no": "S-I2YEi-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 7,
+    "fields": {
+      "student_no": "S-d3GCO-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 8,
+    "fields": {
+      "student_no": "S-xgMd8-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 9,
+    "fields": {
+      "student_no": "S-Voq4r-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 11,
+    "fields": {
+      "student_no": "S-O1utv-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 12,
+    "fields": {
+      "student_no": "S-HNeUJ-2024"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 13,
+    "fields": {
+      "student_no": "S-HbOr3-2023"
+    }
+  },
+  {
+    "model": "core.student",
+    "pk": 14,
+    "fields": {
+      "student_no": "S-4csKQ-2024"
+    }
+  },
+  {
+    "model": "core.category",
+    "pk": "mycat",
+    "fields": {
+      "description": "the mysczy desc"
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 1,
+    "fields": {
+      "owner": 12,
+      "assignee": null,
+      "title": "tempore eius quisquam in dolorum error",
+      "description": "Explicabo molestiae error quidem iure ab amet animi quibusdam, possimus excepturi cum, rerum molestias sed aliquid ex, dolorum tempore dolore deleniti suscipit nemo delectus voluptates sunt repudiandae aperiam?",
+      "status": 1,
+      "priority": 1,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2025-01-22T12:09:54.306Z",
+      "updated_at": null,
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 2,
+    "fields": {
+      "owner": 8,
+      "assignee": null,
+      "title": "id eos recusandae aut ullam minus",
+      "description": null,
+      "status": 16,
+      "priority": 8,
+      "escalation_level": 1,
+      "notes": "Beatae blanditiis similique vel possimus harum unde incidunt ad reprehenderit, qui a dolores amet. Ratione minus tenetur amet debitis, eius quibusdam deserunt accusamus accusantium officia consectetur sint aliquam esse, quas officiis ullam natus, possimus eaque quas voluptatum, maxime dolores distinctio exercitationem rerum magnam iste vero repudiandae nesciunt?\nItaque maiores quo tenetur neque laborum alias tempore voluptas officia, velit debitis iure est, maiores quibusdam odio culpa tempora alias placeat rem repudiandae, enim quas excepturi qui consequuntur tempora laudantium similique nostrum aperiam minus eaque? Incidunt id saepe enim aperiam voluptates, sed iusto officia sapiente asperiores aliquam quod laudantium autem adipisci voluptatibus quis, officiis facere accusantium doloremque ex voluptate, soluta earum fugiat debitis dolorem, accusamus sequi aperiam nesciunt praesentium repudiandae et ipsum excepturi sunt quas facilis. Corrupti qui placeat veritatis ducimus ratione, deserunt tenetur architecto iusto natus, odio quas distinctio harum facere eveniet ipsa optio amet velit mollitia. Sapiente quaerat minima necessitatibus repellat consectetur praesentium repellendus laboriosam, illo voluptates non inventore, consectetur odio voluptatum.",
+      "created_at": "2025-01-26T12:09:54.307Z",
+      "updated_at": "2025-02-03T20:49:17.307Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 3,
+    "fields": {
+      "owner": 9,
+      "assignee": null,
+      "title": "ipsam ipsum nobis cupiditate numquam",
+      "description": "Totam, exercitationem repudiandae eum odit quae voluptas accusamus voluptatem veritatis obcaecati a.\nReiciendis illum fugiat, explicabo quaerat deleniti?",
+      "status": 8,
+      "priority": 2,
+      "escalation_level": 1,
+      "notes": null,
+      "created_at": "2025-02-23T12:09:54.309Z",
+      "updated_at": null,
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 4,
+    "fields": {
+      "owner": 12,
+      "assignee": 4,
+      "title": "molestiae vero natus magnam maiores sequi sint",
+      "description": null,
+      "status": 2,
+      "priority": 1,
+      "escalation_level": 2,
+      "notes": "Eveniet possimus fugit unde nihil itaque saepe, facere laudantium cumque id ipsum consequatur culpa magni exercitationem eaque odit sapiente, dolore harum sit praesentium reprehenderit repellendus culpa nostrum quod, odit fugiat veniam distinctio, nulla aliquam perferendis ad.",
+      "created_at": "2024-11-26T12:09:54.310Z",
+      "updated_at": "2025-01-17T18:58:22.310Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 5,
+    "fields": {
+      "owner": 5,
+      "assignee": null,
+      "title": "assumenda eveniet nisi eos impedit",
+      "description": "Ab distinctio necessitatibus quibusdam eaque in suscipit soluta, ipsum modi ullam numquam maxime voluptates placeat fuga aut cupiditate incidunt doloremque, inventore hic ratione corrupti quisquam ipsum?",
+      "status": 4,
+      "priority": 2,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2024-12-07T12:09:54.311Z",
+      "updated_at": "2025-01-21T04:04:53.311Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 6,
+    "fields": {
+      "owner": 7,
+      "assignee": null,
+      "title": "laboriosam adipisci blanditiis consectetur fuga quas deserunt magni cumque rem",
+      "description": "Rem error obcaecati quis itaque quos ab laboriosam blanditiis repellendus amet, illo quae quaerat officiis at voluptatem tenetur distinctio quidem placeat maxime porro, suscipit minima magnam.",
+      "status": 1,
+      "priority": 4,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2025-01-09T12:09:54.311Z",
+      "updated_at": "2025-01-31T21:00:51.311Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 7,
+    "fields": {
+      "owner": 7,
+      "assignee": null,
+      "title": "culpa autem velit minus sint molestias officiis",
+      "description": "Dolorem maxime sit reprehenderit laborum velit ipsum eum ut odio nisi, minus consequuntur quos voluptate mollitia natus?\nVero facere rem repellendus, quibusdam expedita ratione magnam sit quam distinctio debitis vero doloribus velit corporis?",
+      "status": 8,
+      "priority": 8,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2025-01-13T12:09:54.312Z",
+      "updated_at": "2025-02-17T14:08:15.312Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 8,
+    "fields": {
+      "owner": 9,
+      "assignee": null,
+      "title": "soluta suscipit quisquam nihil iste natus",
+      "description": "Nam deserunt nostrum nemo dolores ducimus iure enim quam, ipsa nisi dolor molestiae odio vero.\nExpedita numquam voluptatibus culpa veniam provident sed quaerat assumenda, harum ducimus voluptate nemo debitis soluta iusto vero sint.",
+      "status": 1,
+      "priority": 8,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2025-02-13T12:09:54.313Z",
+      "updated_at": null,
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 9,
+    "fields": {
+      "owner": 7,
+      "assignee": null,
+      "title": "iste assumenda dolorem minus natus",
+      "description": null,
+      "status": 4,
+      "priority": 1,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2024-12-29T12:09:54.313Z",
+      "updated_at": "2025-01-08T20:05:44.313Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 10,
+    "fields": {
+      "owner": 11,
+      "assignee": null,
+      "title": "asperiores possimus nesciunt cumque ipsum illo hic quam vitae eveniet",
+      "description": "Rem error corporis eveniet quis voluptate maiores dolorem doloribus voluptatum dolore, incidunt animi consequatur et fugiat voluptatibus illum dolores architecto quis voluptatum ratione, quis eligendi quia placeat nihil?\nNisi eum at velit ad nobis.",
+      "status": 8,
+      "priority": 1,
+      "escalation_level": 2,
+      "notes": null,
+      "created_at": "2025-02-03T12:09:54.314Z",
+      "updated_at": "2025-02-19T21:00:08.314Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.issue",
+    "pk": 11,
+    "fields": {
+      "owner": 14,
+      "assignee": null,
+      "title": "eveniet libero nihil soluta ullam qui rerum",
+      "description": "Totam quo quod sapiente, labore nostrum nobis magnam eaque, natus nobis sit dolore ad dolorum quia animi cum deleniti voluptates illum, voluptatibus necessitatibus temporibus fugit mollitia eaque obcaecati quae eligendi neque nemo animi.",
+      "status": 16,
+      "priority": 8,
+      "escalation_level": 4,
+      "notes": null,
+      "created_at": "2024-11-17T12:09:54.315Z",
+      "updated_at": "2025-01-17T23:41:38.315Z",
+      "categories": []
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "1eded90e-62ba-4dc4-a312-d6d4213ab80b",
+    "fields": {
+      "issue": 4,
+      "name": "ipsam-exercitationem-natus-obcaecati-dolorum-fugit.txt",
+      "size": 2423634,
+      "type": "text/plain",
+      "created_at": "2025-02-10T12:09:54.319Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "34d0acfa-2cc3-43de-a198-483f10572ab3",
+    "fields": {
+      "issue": 11,
+      "name": "ipsum-labore-laborum-fugiat-odit.jpeg",
+      "size": 9116679,
+      "type": "image/jpeg",
+      "created_at": "2024-12-08T12:09:54.318Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "35e84444-6e1a-444a-9c66-1beb85f886e8",
+    "fields": {
+      "issue": 2,
+      "name": "nobis_voluptates_vitae_commodi_natus.gif",
+      "size": 4125416,
+      "type": "image/gif",
+      "created_at": "2024-12-12T12:09:54.319Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "406955c2-dde1-4881-ba19-bcfede130a01",
+    "fields": {
+      "issue": 6,
+      "name": "saepe-veniam-voluptatem-ex.ppt",
+      "size": 7399235,
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "created_at": "2024-12-14T12:09:54.317Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "71037cc5-6264-4828-a806-6769e43f2367",
+    "fields": {
+      "issue": 1,
+      "name": "quasi dolores temporibus.docx",
+      "size": 4579860,
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "created_at": "2024-12-10T12:09:54.316Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "7aa56bcb-75dd-478c-88f2-a2c1eb30f884",
+    "fields": {
+      "issue": 10,
+      "name": "nihil-animi-dolorum.gif",
+      "size": 2313876,
+      "type": "image/gif",
+      "created_at": "2025-01-09T12:09:54.315Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "b9119f63-34c3-49be-8723-d155661724f8",
+    "fields": {
+      "issue": 1,
+      "name": "sapiente-fugit-veritatis-voluptas.jpeg",
+      "size": 3479981,
+      "type": "image/jpeg",
+      "created_at": "2024-12-27T12:09:54.318Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "cf830ba5-f770-4a51-b0e3-5ddd9e916be8",
+    "fields": {
+      "issue": 6,
+      "name": "explicabo-quis-pariatur-ipsa-expedita.jpeg",
+      "size": 4072279,
+      "type": "image/jpeg",
+      "created_at": "2025-02-07T12:09:54.316Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "e7a4619d-0866-4a47-a577-71aa44ed07fa",
+    "fields": {
+      "issue": 7,
+      "name": "magni-maiores-cupiditate-eaque-at-vero-quam-facilis.txt",
+      "size": 6961935,
+      "type": "text/plain",
+      "created_at": "2024-11-29T12:09:54.319Z"
+    }
+  },
+  {
+    "model": "core.attachment",
+    "pk": "f933f03b-7224-42a7-ace4-f22780dae7ed",
+    "fields": {
+      "issue": 7,
+      "name": "aliquam.ppt",
+      "size": 9116321,
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "created_at": "2024-12-31T12:09:54.317Z"
+    }
+  }
+]
