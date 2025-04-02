@@ -35,4 +35,4 @@ python3 manage.py migrate
 # python3 ./manage.py runserver
 
 # [optional] Start the application here 
-python manage.py runserver
+# python manage.py runserver
